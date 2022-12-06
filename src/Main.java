@@ -131,7 +131,7 @@ public class Main {
         /*
         First create a base case to check if the 2 indexes are the same. This will prevent this method from running
         forever inside the loop. If this is true, return or leave the function
-         */
+        */
         if(index1 == index2) {
             return;
         }
@@ -142,7 +142,7 @@ public class Main {
         that number is at.
         Next, swap the value of index1 with the value of index2.
         Finally, swap the value of index2 with the temporary variable
-         */
+        */
             int temp = nums[index1]; //if index1 = 3, temp now equals 3
             nums[index1] = nums[index2]; // If index2 = 6, index1 now equals 6
             nums[index2] = temp; // index2 would now equal 3, successfully swapping the two values
