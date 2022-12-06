@@ -65,12 +65,12 @@ public class Main {
         Create another integer rp (right pointer) and set it to the highIndex
         This pointer starts at the right most part of the array
         //NOTE: These are integers because the values in the array are integers!
-         */
+        */
         int rp = highIndex;
         /*
         This first while loop checks if the left pointer is < the right pointer
         While this is true, move onto the next step
-         */
+        */
         while (lp < rp){
             /*
             This next loop is called a nested while loop and will only occur as long as the outer while loop is
